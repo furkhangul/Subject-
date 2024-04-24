@@ -29,9 +29,10 @@ class Program
                 cikti += dizi[i] + sayac.ToString();
                 sayac = 1;
             }
-            Console.ReadLine();
+           
         }
         cikti += dizi[dizi.Length - 1] + sayac.ToString();
         Console.WriteLine("Çıktı: " + cikti);
+         Console.ReadLine();
     }
 }
